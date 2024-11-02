@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - "\u6211\u65B9\u89D2\u8272"
+  - "\u602A\u7269"
+  - "\u6211\u65B9\u57FA\u5730"
+  - "\u6575\u65B9\u57FA\u5730"
+  - "\u51B0\u9F8D"
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Monster
+  - "\u69CD\u624B"
+  - "\u7926\u5DE5"
+  - "\u5C60\u9F8D\u6B66\u58EB"
+  - "\u51B0\u9F8D"
+  - "\u5922\u9B58"
+  - "\u5B88\u8B77\u8005"
+  - "\u6BAD\u5C4D"
+  - "\u706B\u9748\u5DEB\u5E2B"
+  - "\u706B\u9748\u738B"
+  - "\u9B54\u6CD5\u5E2B"
+  - "\u528D\u6C23"
+  - "\u9695\u77F3"
+  - "\u706B\u7403"
+  - "\u6A5F\u5668\u4EBA"
+  - "\u9695\u77F3\u7206\u70B8"
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
