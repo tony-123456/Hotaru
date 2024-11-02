@@ -84,7 +84,7 @@ public class Enemy : MonoBehaviour
             Vector3 posFireWich = transform.position; //火球座標 = 火靈巫師座標
             posFireWich.y = transform.position.y - 0.55f;
             GameObject temp = Instantiate(expolution, posFireWich, Quaternion.identity); //生成(物件,座標,角度)，Quaternion.identity 角度類型-零角度   
-            dialogue.instance.InitDialogue(new string[] { "看來不露出真面目是沒辦法解決你們的...", "吼~~我要使出全力了，看我的蒜鼻拳" ,"竟然沒死!饒了我們吧~"}, new int[] { 6, 7 , 0});
+            if (BattleManager.instance.loseLv == false) dialogue.instance.InitDialogue(new string[] { "看來不露出真面目是沒辦法解決你們的...", "吼~~我要使出全力了，看我的蒜鼻拳" ,"竟然沒死!饒了我們吧~"}, new int[] { 6, 7 , 0});
             yield return new WaitForSeconds(0.3f);
             GameObject temp2 = Instantiate(FireGod, posFireWich, Quaternion.identity); //生成(物件,座標,角度)，Quaternion.identity 角度類型-零角度   
             aud.PlayOneShot(explotion1);
@@ -92,12 +92,12 @@ public class Enemy : MonoBehaviour
         }
         else if(gameObject.layer == LayerMask.NameToLayer("火靈王"))
         {
-            dialogue.instance.InitDialogue(new string[] { "可惡，你們竟然能把我逼到絕境，我死也要拖你們下水!", "大    自   爆!", "不~~網美璇璇小姐!!!"}, new int[] { 7, 7, 4});
+            if(BattleManager.instance.loseLv == false) dialogue.instance.InitDialogue(new string[] { "可惡，你們竟然能把我逼到絕境，我死也要拖你們下水!", "大    自   爆!", "不~~網美璇璇小姐!!!"}, new int[] { 7, 7, 4});
             aud.PlayOneShot(explotion2);
             Vector3 posFireWich = transform.position; //火球座標 = 火靈王座標          
             GameObject temp = Instantiate(lastexpolution, posFireWich, Quaternion.identity); //生成(物件,座標,角度)，Quaternion.identity 角度類型-零角度   
             yield return new WaitForSeconds(0.3f);
-            dialogue.instance.InitDialogue(new string[] { "你們沒事吧?", "沒想到他竟然這麼狠" ,"沒事家人們，勝利就在我們眼前，拿下城堡，奪下解藥就是我們的勝利了!","我要繼承網美璇璇小姐的遺志，不會讓你們得逞的!"}, new int[] { 1, 2, 0, 4 });
+            if (BattleManager.instance.loseLv == false) dialogue.instance.InitDialogue(new string[] { "你們沒事吧?", "沒想到他竟然這麼狠" ,"沒事家人們，勝利就在我們眼前，拿下城堡，奪下解藥就是我們的勝利了!","我要繼承網美璇璇小姐的遺志，不會讓你們得逞的!"}, new int[] { 1, 2, 0, 4 });
             Destroy(gameObject);
         }
         else
