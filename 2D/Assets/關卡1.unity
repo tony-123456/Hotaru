@@ -333,7 +333,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 249566772ad18a441b57c69f4018edab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  charsPerSecond: 0.2
   words: []
   strindex: 0
   myText: {fileID: 926598335}
@@ -894,7 +893,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &365118730
 RectTransform:
@@ -1953,6 +1952,10 @@ PrefabInstance:
     - target: {fileID: 216871053411259903, guid: 9eb7c68e165f2c44b8b66a86a982128c, type: 3}
       propertyPath: m_Offset.x
       value: 1.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594587427254742931, guid: 9eb7c68e165f2c44b8b66a86a982128c, type: 3}
+      propertyPath: m_ReferencePixelsPerUnit
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5714365036711838118, guid: 9eb7c68e165f2c44b8b66a86a982128c, type: 3}
       propertyPath: m_LocalPosition.z

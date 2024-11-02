@@ -161,6 +161,7 @@ MonoBehaviour:
   lose: {fileID: 858082357}
   FinishBattle: 0
   passLv: 0
+  loseLv: 0
   trambattle: {fileID: 1098884425}
   gameView: {fileID: 1677967277}
   BattleRoleTransform: []
@@ -250,7 +251,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 249566772ad18a441b57c69f4018edab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  charsPerSecond: 0.2
   words: []
   strindex: 0
   myText: {fileID: 1182556354}
@@ -799,7 +799,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &365118730
 RectTransform:

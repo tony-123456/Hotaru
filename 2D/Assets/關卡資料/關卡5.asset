@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawn:
   - name: "\u7B2C\u4E00\u6CE2"
-    time: 15
+    time: 18
     monsters:
     - monster: {fileID: 6946404859904288270, guid: ec9fcd050660aed438ede3db6e7fd0ce, type: 3}
       x: 7.2
