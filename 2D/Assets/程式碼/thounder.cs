@@ -6,9 +6,12 @@ public class thounder : MonoBehaviour
 {
     public float damage = 5f;
     public string type;
+    public AudioClip sound;
+    public AudioSource Aud;
 
     public void Start()
     {
+        Aud.PlayOneShot(sound);
         StartCoroutine(keep1sec());
     }
     public IEnumerator keep1sec()
