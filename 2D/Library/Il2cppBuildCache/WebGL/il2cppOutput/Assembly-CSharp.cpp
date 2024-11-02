@@ -393,6 +393,7 @@ IL2CPP_EXTERN_C RuntimeClass* List_1_t6D0A10F47F3440798295D2FFFC6D016477AF38E5_i
 IL2CPP_EXTERN_C RuntimeClass* MoneyManager_t27474390D71715E6B351B7617FFB870F4CE8649A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Physics2D_t1C1ECE6BA2F958C5C1440DDB9E9A5DAAA8F86D92_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Predicate_1_tA21F84386ACD69F0186813819CC4B55AA3B3010D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RoleMove_t505B560E47828A6F762B8CC49C5B1BAA3E5FB397_il2cpp_TypeInfo_var;
@@ -534,6 +535,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralBD6851D88FC8D3057AE484BF19B20424D6C70F86
 IL2CPP_EXTERN_C String_t* _stringLiteralC035E94BA208308513E8402200BA1851937A61F8;
 IL2CPP_EXTERN_C String_t* _stringLiteralC2022E26F3E540E8B12103586DF2FC4E8718ABB6;
 IL2CPP_EXTERN_C String_t* _stringLiteralC2F9A94ED8684F4AE51F264CC8E83B9731EAE480;
+IL2CPP_EXTERN_C String_t* _stringLiteralCBEBC3E7B44D15A0992DB127201BF267D3069591;
 IL2CPP_EXTERN_C String_t* _stringLiteralCCF21506DF9812468784216C395159F8318828C0;
 IL2CPP_EXTERN_C String_t* _stringLiteralD17506808E164348361275FEA719C2393F6A3340;
 IL2CPP_EXTERN_C String_t* _stringLiteralD1DA5A63DD8D8B54E3E064E75F289ADA604685F2;
@@ -9164,6 +9166,14 @@ inline void List_1__ctor_m732B1E24EA60EE297863AB11D22760A284428BC6 (List_1_t1EBD
 }
 // System.Void DeckManager::DeleteCard(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DeckManager_DeleteCard_mBDF539BD378B156AB6E6A4BD073CCCCEAE31D962 (DeckManager_t10E3F7A5FB2C74AB2B67F0ABDA437A036B9604E3 * __this, int32_t ___index0, const RuntimeMethod* method);
+// System.String UnityEngine.Application::get_streamingAssetsPath()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_streamingAssetsPath_mA1FBABB08D7A4590A468C7CD940CD442B58C91E1 (const RuntimeMethod* method);
+// System.String System.IO.Path::Combine(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_Combine_mC22E47A9BB232F02ED3B6B5F6DD53338D37782EF (String_t* ___path10, String_t* ___path21, const RuntimeMethod* method);
+// System.Void UnityEngine.Video.VideoPlayer::set_url(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_set_url_m9C9942D6C54D50F6255A2AA1646D9F40E551BF13 (VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 * __this, String_t* ___value0, const RuntimeMethod* method);
+// System.Void UnityEngine.Video.VideoPlayer::Play()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_Play_m2AD0D39D70055A5AADCF63430D3D9CEC7DCB0516 (VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 * __this, const RuntimeMethod* method);
 // System.Void End::ToEndVideo()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void End_ToEndVideo_mCB91725040A446396672E80CA946285FB16CF56A (End_tCAD9562D0381FD04310D8A496C18ABE9B9F198CB * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.Video.VideoPlayer/EventHandler::.ctor(System.Object,System.IntPtr)
@@ -11580,7 +11590,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DeckObject__ctor_m565347455D194184E42512
 // System.Void End::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void End_Start_m8A828C72555228BD1421F31D02F9E8D271D0A9E3 (End_tCAD9562D0381FD04310D8A496C18ABE9B9F198CB * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCBEBC3E7B44D15A0992DB127201BF267D3069591);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// vp.url = System.IO.Path.Combine(Application.streamingAssetsPath, "myFile.mp4");
+		VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 * L_0 = __this->get_vp_4();
+		String_t* L_1;
+		L_1 = Application_get_streamingAssetsPath_mA1FBABB08D7A4590A468C7CD940CD442B58C91E1(/*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var);
+		String_t* L_2;
+		L_2 = Path_Combine_mC22E47A9BB232F02ED3B6B5F6DD53338D37782EF(L_1, _stringLiteralCBEBC3E7B44D15A0992DB127201BF267D3069591, /*hidden argument*/NULL);
+		VideoPlayer_set_url_m9C9942D6C54D50F6255A2AA1646D9F40E551BF13(L_0, L_2, /*hidden argument*/NULL);
+		// vp.Play();
+		VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 * L_3 = __this->get_vp_4();
+		VideoPlayer_Play_m2AD0D39D70055A5AADCF63430D3D9CEC7DCB0516(L_3, /*hidden argument*/NULL);
 		// ToEndVideo();
 		End_ToEndVideo_mCB91725040A446396672E80CA946285FB16CF56A(__this, /*hidden argument*/NULL);
 		// }

@@ -1208,6 +1208,24 @@ IL2CPP_EXTERN_C  bool VideoClipPlayable_Equals_m8BFF58C5788058758A88D0C2E0295D99
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void UnityEngine.Video.VideoPlayer::set_url(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_set_url_m9C9942D6C54D50F6255A2AA1646D9F40E551BF13 (VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 * __this, String_t* ___value0, const RuntimeMethod* method)
+{
+	typedef void (*VideoPlayer_set_url_m9C9942D6C54D50F6255A2AA1646D9F40E551BF13_ftn) (VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 *, String_t*);
+	static VideoPlayer_set_url_m9C9942D6C54D50F6255A2AA1646D9F40E551BF13_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (VideoPlayer_set_url_m9C9942D6C54D50F6255A2AA1646D9F40E551BF13_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Video.VideoPlayer::set_url(System.String)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.Video.VideoPlayer::Play()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_Play_m2AD0D39D70055A5AADCF63430D3D9CEC7DCB0516 (VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 * __this, const RuntimeMethod* method)
+{
+	typedef void (*VideoPlayer_Play_m2AD0D39D70055A5AADCF63430D3D9CEC7DCB0516_ftn) (VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 *);
+	static VideoPlayer_Play_m2AD0D39D70055A5AADCF63430D3D9CEC7DCB0516_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (VideoPlayer_Play_m2AD0D39D70055A5AADCF63430D3D9CEC7DCB0516_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Video.VideoPlayer::Play()");
+	_il2cpp_icall_func(__this);
+}
 // System.Void UnityEngine.Video.VideoPlayer::add_loopPointReached(UnityEngine.Video.VideoPlayer/EventHandler)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_add_loopPointReached_m01BBFFE55835498DFF2A1C8CEF3292B4780E4964 (VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 * __this, EventHandler_t99288A74FAB288C0033E28A5CD3DABE77B109BFD * ___value0, const RuntimeMethod* method)
 {

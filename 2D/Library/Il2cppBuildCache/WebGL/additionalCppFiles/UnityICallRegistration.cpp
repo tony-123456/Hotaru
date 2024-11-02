@@ -86,6 +86,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Application_get_absoluteURL();
 		Register_UnityEngine_Application_get_absoluteURL();
 
+		//System.String UnityEngine.Application::get_streamingAssetsPath()
+		void Register_UnityEngine_Application_get_streamingAssetsPath();
+		Register_UnityEngine_Application_get_streamingAssetsPath();
+
 		//System.Void UnityEngine.Application::Quit(System.Int32)
 		void Register_UnityEngine_Application_Quit();
 		Register_UnityEngine_Application_Quit();
@@ -2443,5 +2447,17 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_UISystemProfilerApi_EndSample();
 
 	//End Registrations for type : UnityEngine.UISystemProfilerApi
+
+	//Start Registrations for type : UnityEngine.Video.VideoPlayer
+
+		//System.Void UnityEngine.Video.VideoPlayer::Play()
+		void Register_UnityEngine_Video_VideoPlayer_Play();
+		Register_UnityEngine_Video_VideoPlayer_Play();
+
+		//System.Void UnityEngine.Video.VideoPlayer::set_url(System.String)
+		void Register_UnityEngine_Video_VideoPlayer_set_url();
+		Register_UnityEngine_Video_VideoPlayer_set_url();
+
+	//End Registrations for type : UnityEngine.Video.VideoPlayer
 
 }

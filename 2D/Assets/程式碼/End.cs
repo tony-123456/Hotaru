@@ -8,6 +8,8 @@ public class End : MonoBehaviour
 
     private void Start()
     {
+        vp.url = System.IO.Path.Combine(Application.streamingAssetsPath, "myFile.mp4");
+        vp.Play();
         ToEndVideo();
     }
     void ToEndVideo()
