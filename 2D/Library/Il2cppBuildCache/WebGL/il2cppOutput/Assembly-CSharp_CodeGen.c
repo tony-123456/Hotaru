@@ -552,18 +552,18 @@ extern void thounder_keep1sec_mBAE0CE3FC9D6C4B48EFD883C05E2E4C80CC8B84B (void);
 extern void thounder_OnTriggerEnter2D_m4421BE44EE1D66D4886243123D3C7289AEE7C7D7 (void);
 // 0x0000010F System.Void thounder::.ctor()
 extern void thounder__ctor_mC489D03939FC32A18D298432E4E4CDE66C7E5CB5 (void);
-// 0x00000110 System.Void thounder/<keep1sec>d__3::.ctor(System.Int32)
-extern void U3Ckeep1secU3Ed__3__ctor_m600F8D58A8E18DD2C7C808B80FAB75C403F54748 (void);
-// 0x00000111 System.Void thounder/<keep1sec>d__3::System.IDisposable.Dispose()
-extern void U3Ckeep1secU3Ed__3_System_IDisposable_Dispose_m2992DDD2FB6AF06137818397D6EDF3B7E131728D (void);
-// 0x00000112 System.Boolean thounder/<keep1sec>d__3::MoveNext()
-extern void U3Ckeep1secU3Ed__3_MoveNext_mF46D4202522C67BD3100E72E014A8DCC9C988AC3 (void);
-// 0x00000113 System.Object thounder/<keep1sec>d__3::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3Ckeep1secU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1F4F57A07FAF59A2E92F0B9CFE3C01DA8A109388 (void);
-// 0x00000114 System.Void thounder/<keep1sec>d__3::System.Collections.IEnumerator.Reset()
-extern void U3Ckeep1secU3Ed__3_System_Collections_IEnumerator_Reset_m28E1AFB495FD0464F2922F5768CAD78C5E8059BF (void);
-// 0x00000115 System.Object thounder/<keep1sec>d__3::System.Collections.IEnumerator.get_Current()
-extern void U3Ckeep1secU3Ed__3_System_Collections_IEnumerator_get_Current_mA387C44921EE49F4F1FE52A81657966938BFF43D (void);
+// 0x00000110 System.Void thounder/<keep1sec>d__5::.ctor(System.Int32)
+extern void U3Ckeep1secU3Ed__5__ctor_m7589856046DDBAC7AB41266A64266BF566075E2C (void);
+// 0x00000111 System.Void thounder/<keep1sec>d__5::System.IDisposable.Dispose()
+extern void U3Ckeep1secU3Ed__5_System_IDisposable_Dispose_mE480A1E1496EB125E9679E41E90DF145455FD870 (void);
+// 0x00000112 System.Boolean thounder/<keep1sec>d__5::MoveNext()
+extern void U3Ckeep1secU3Ed__5_MoveNext_m52DD2F804B66AE91F83A083E37B1A9A9EE376992 (void);
+// 0x00000113 System.Object thounder/<keep1sec>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3Ckeep1secU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m42F8E4D8B987DB1633467A31A76A8E3764E5BF6A (void);
+// 0x00000114 System.Void thounder/<keep1sec>d__5::System.Collections.IEnumerator.Reset()
+extern void U3Ckeep1secU3Ed__5_System_Collections_IEnumerator_Reset_mA8A85F7BAA716044D83AD4275E350FB065203E03 (void);
+// 0x00000115 System.Object thounder/<keep1sec>d__5::System.Collections.IEnumerator.get_Current()
+extern void U3Ckeep1secU3Ed__5_System_Collections_IEnumerator_get_Current_m9E6A3E2919AC6335CB08B56A4A8391C30563C147 (void);
 // 0x00000116 System.Void ClearSky.SimplePlayerController::Start()
 extern void SimplePlayerController_Start_m446FBA8D52C268EEEF7EFA0716F9BB02E366A102 (void);
 // 0x00000117 System.Void ClearSky.SimplePlayerController::Update()
@@ -879,12 +879,12 @@ static Il2CppMethodPointer s_methodPointers[298] =
 	thounder_keep1sec_mBAE0CE3FC9D6C4B48EFD883C05E2E4C80CC8B84B,
 	thounder_OnTriggerEnter2D_m4421BE44EE1D66D4886243123D3C7289AEE7C7D7,
 	thounder__ctor_mC489D03939FC32A18D298432E4E4CDE66C7E5CB5,
-	U3Ckeep1secU3Ed__3__ctor_m600F8D58A8E18DD2C7C808B80FAB75C403F54748,
-	U3Ckeep1secU3Ed__3_System_IDisposable_Dispose_m2992DDD2FB6AF06137818397D6EDF3B7E131728D,
-	U3Ckeep1secU3Ed__3_MoveNext_mF46D4202522C67BD3100E72E014A8DCC9C988AC3,
-	U3Ckeep1secU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1F4F57A07FAF59A2E92F0B9CFE3C01DA8A109388,
-	U3Ckeep1secU3Ed__3_System_Collections_IEnumerator_Reset_m28E1AFB495FD0464F2922F5768CAD78C5E8059BF,
-	U3Ckeep1secU3Ed__3_System_Collections_IEnumerator_get_Current_mA387C44921EE49F4F1FE52A81657966938BFF43D,
+	U3Ckeep1secU3Ed__5__ctor_m7589856046DDBAC7AB41266A64266BF566075E2C,
+	U3Ckeep1secU3Ed__5_System_IDisposable_Dispose_mE480A1E1496EB125E9679E41E90DF145455FD870,
+	U3Ckeep1secU3Ed__5_MoveNext_m52DD2F804B66AE91F83A083E37B1A9A9EE376992,
+	U3Ckeep1secU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m42F8E4D8B987DB1633467A31A76A8E3764E5BF6A,
+	U3Ckeep1secU3Ed__5_System_Collections_IEnumerator_Reset_mA8A85F7BAA716044D83AD4275E350FB065203E03,
+	U3Ckeep1secU3Ed__5_System_Collections_IEnumerator_get_Current_m9E6A3E2919AC6335CB08B56A4A8391C30563C147,
 	SimplePlayerController_Start_m446FBA8D52C268EEEF7EFA0716F9BB02E366A102,
 	SimplePlayerController_Update_m08A3438612AFA8D98C3C692936926F49EB7B5D7B,
 	SimplePlayerController_OnTriggerEnter2D_m2165D63EFB1C28011CB7B486C388AE51CC0C1247,
