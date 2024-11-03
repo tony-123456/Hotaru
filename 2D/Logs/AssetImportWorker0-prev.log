@@ -1,0 +1,191 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19045.5011; Version 2009; 64bit' Language: 'zh' Physical Memory: 16295 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity works/Hotaru/2D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61428
+Successfully changed project path to: D:/Unity works/Hotaru/2D
+D:/Unity works/Hotaru/2D
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 43.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path D:/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity works/Hotaru/2D/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   
+    VRAM:     8018 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'D:/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000934 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 44.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.766 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002317 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 47.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.917 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2552.
+Total: 1.855500 ms (FindLiveObjects: 0.145600 ms CreateObjectMapping: 0.062000 ms MarkObjects: 1.599700 ms  DeleteObjects: 0.047200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/關卡3.unity
+  artifactKey: Guid(a45cc9523b02fd242821201cb2ee0524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/關卡3.unity using Guid(a45cc9523b02fd242821201cb2ee0524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0966708fa8d95787a0b0eb1daea595f') in 0.014434 seconds 
+  Import took 0.017364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.151347 seconds.
+  path: Assets/結尾.unity
+  artifactKey: Guid(c6a39ffd666c0c143949ee6688c2a71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/結尾.unity using Guid(c6a39ffd666c0c143949ee6688c2a71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dffa2a10f90e61cca8ea3d583c5af09') in 0.008071 seconds 
+  Import took 0.010885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.417496 seconds.
+  path: Assets/其他素材/genkai-mincho.ttf
+  artifactKey: Guid(52324233681b4c04a969302f07b4f2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/其他素材/genkai-mincho.ttf using Guid(52324233681b4c04a969302f07b4f2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669bd9178954d375aec8a76376a4f470') in 0.117167 seconds 
+  Import took 0.121298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/其他素材/theboldfont.ttf
+  artifactKey: Guid(78ff7998467dde9438f3527af3a61949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/其他素材/theboldfont.ttf using Guid(78ff7998467dde9438f3527af3a61949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e2097b184a24864b75d62f46ddff14') in 0.013000 seconds 
+  Import took 0.016082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/其他素材/setofont.ttf
+  artifactKey: Guid(6af66dc0929471e4889bc2739d3b151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/其他素材/setofont.ttf using Guid(6af66dc0929471e4889bc2739d3b151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a6778ec098382cd6b73c870ad19a13') in 0.028825 seconds 
+  Import took 0.032275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/其他素材/genkai-mincho.ttf
+  artifactKey: Guid(52324233681b4c04a969302f07b4f2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/其他素材/genkai-mincho.ttf using Guid(52324233681b4c04a969302f07b4f2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669bd9178954d375aec8a76376a4f470') in 0.036002 seconds 
+  Import took 0.039853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/其他素材/Movie.renderTexture
+  artifactKey: Guid(3f8d842659e4ed54da06ca115410097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/其他素材/Movie.renderTexture using Guid(3f8d842659e4ed54da06ca115410097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1605e9b0b90cb781bd493d8106d4970') in 0.018031 seconds 
+  Import took 0.021148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/其他素材/Produce.mp4
+  artifactKey: Guid(ffac6e782c1c63d47b90adc1aa0bef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/其他素材/Produce.mp4 using Guid(ffac6e782c1c63d47b90adc1aa0bef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1deeca9e6021d04e608fce9c922854') in 0.039442 seconds 
+  Import took 0.042816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006231 seconds.
+  path: Assets/其他素材/Produce.mp4
+  artifactKey: Guid(ffac6e782c1c63d47b90adc1aa0bef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/其他素材/Produce.mp4 using Guid(ffac6e782c1c63d47b90adc1aa0bef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1deeca9e6021d04e608fce9c922854') in 0.001996 seconds 
+  Import took 0.005099 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.4 MB.
+System memory in use after: 55.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2600.
+Total: 2.202500 ms (FindLiveObjects: 0.211300 ms CreateObjectMapping: 0.082400 ms MarkObjects: 1.894800 ms  DeleteObjects: 0.013200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 38.775231 seconds.
+  path: Assets/其他素材/Movie.renderTexture
+  artifactKey: Guid(3f8d842659e4ed54da06ca115410097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/其他素材/Movie.renderTexture using Guid(3f8d842659e4ed54da06ca115410097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc095466f29edd73aefdf64d58d6b38') in 0.023511 seconds 
+  Import took 0.026755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.247927 seconds.
+  path: Assets/其他素材/Movie.renderTexture
+  artifactKey: Guid(3f8d842659e4ed54da06ca115410097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/其他素材/Movie.renderTexture using Guid(3f8d842659e4ed54da06ca115410097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc095466f29edd73aefdf64d58d6b38') in 0.003873 seconds 
+  Import took 0.006690 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
